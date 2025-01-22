@@ -3,7 +3,7 @@ interface Observer {
     update(message: string): void;
 }
 
-// Concrete subscriber class
+// Concrete subscriber class espanol
 class Subscriber implements Observer {
     private name: string;
 
