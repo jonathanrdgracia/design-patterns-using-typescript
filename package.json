@@ -1,5 +1,9 @@
 {
   "devDependencies": {
     "parcel": "^2.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && 1",
+    "start": "(npx parcel ./index.html) & npx parcel watch ./index.html"
   }
 }
